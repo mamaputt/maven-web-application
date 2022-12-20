@@ -96,19 +96,19 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://18.168.254.4:8181/mylandmarktech/repository/tesla-web-release</url>
+	      <url>http://172.31.40.104:8181/mylandmarktech/repository/tesla-web-release</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://18.168.254.4:8181/mylandmarktech/repository/tesla-web-snapshot/</url>
+	      <url>http://172.31.40.104:8181/mylandmarktech/repository/tesla-web-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>maven-web-apps</finalName>
+		<finalName>tesla</finalName>
 		
 		<plugins>
 			<plugin>
